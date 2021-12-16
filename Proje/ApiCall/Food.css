@@ -1,0 +1,90 @@
+body{
+    overflow-x: hidden;
+}
+.myCenter{
+    text-align: center;
+    background-color:grey;
+    padding:25px;
+}
+.highligh
+{
+    background-color:GREY;
+    color:white
+}
+        
+.myHeader{
+    background-color:antiquewhite;
+    color:black;
+    /* display:flex; */
+}
+.myList{
+    list-style-type: none;
+    display: flex;
+    text-decoration: none;
+    justify-content: end;
+    justify-content: space-between;
+
+}
+.myHeader .myImage{
+    /* background-color: green; */
+    /* margin:0px; */
+    height: 45px;
+}
+.MyInput{
+    width:25%;
+    border-radius: 2%;
+    border:none;
+}
+.myFooter{
+    background-color: brown;
+    color:white;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+.myFlex{
+    padding: 20px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    font-weight: bolder;
+}
+.myFlex:hover{
+    background-color: grey;
+    color:black
+}
+/* .carousel-inner{
+    height:50%;
+} */
+input[type=text] {
+    width: 100px;
+    outline-color:black;
+    transition: width .35s ease-in-out;
+    /* transition: outline-color .35s ease-in-out; */
+
+  }
+  input[type=text]:focus {
+    width: 250px;
+    outline-color: black;
+    background-color:black;
+    color:white
+  }
+  .animate{
+      position: relative;
+   
+      animation-name:laptop;
+      animation-duration:10s;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+
+  }
+  @keyframes laptop {
+        0%{right:0%}
+        25%{left:25%}
+        35%{left:35%}
+        45%{left:45%}
+        55%{left:55%}
+        65%{left:65%}
+        75%{left:75%}
+       100%{left:100%}
+  }
